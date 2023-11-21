@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Oliver Lucero</title>
+
+    <meta name="description" content="Portfolio de Oliver Lucero Ingeniero en Desarrollo y Gestión de Software">
+    <meta name="robots" content="index, follow"> <!--Indica si debe indexar la pagina y seguir los enlaces-->
+    <meta name="theme-color" content="#09f"> <!--Le da un color a la barra de navegación del navegador-->
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="alternate" href="https://oliverlucero.dev/en" hreflang="en-GB">
+    <!--Enlaza a un recurso externo, es una alternativa a nuestra pagina, en este ejemplo es la versión en ingles-->
+    <link rel="canonical" href="https://oliverlucero.dev"><!--Determina cual es la pagina principal del sitio web-->
+    <!--OPEN GRAPH-->
+    <meta property="og:title" content="Portfolio de un Ingeniero de Software">
+    <meta property="og:description" content="Portfolio de un Ingeniero de Software">
+    <meta property="og:image" content="/images/profile.jpg">
+    <meta property="og:image:alt" content="Una fotografía de Oliver Lucero sonriendo">
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio de Oliver Lucero</h1>
+
+        <nav>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="https://github.com/OliverHugo09" target="_blank" rel="noreferrer">Perfil de Github</a>
+        </nav>
+    </header>
+
+    <main>
+        <p>Recien egresado de la carrera de <strong>Ingenieria en Desarrollo y Gestión de Software</strong>. En busca de
+            un
+            lugar para demostrar mis habilidades</p>
+
+        <h2 id="experiencia">Experiencia</h2>
+
+        <ul>
+            <li class="list-item">Europarts Caribe - 2019</li>
+            <li class="list-item">The Fives Beach Hotels & Residences - 2021</li>
+            <li class="list-item">Edumark - 2023</li>
+        </ul>
+
+        <img id="photo-image" width="200" height="200" s rc="images/profile.jpg" alt="Una foto de Oliver sonriendo"
+            title="Foto de Oliver">
+
+        <h2 id="proyectos">Proyectos realizados</h2>
+        <aside>
+            <header>
+                <h3>Mis tecnologias favoritas</h3>
+            </header>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node JS</li>
+            </ol>
+        </aside>
+        <style>
+            img {
+                width: 100%;
+                aspect-ratio: 951/503;
+            }
+        </style>
+        <img src="images/tesla.jpg" alt="Captura de pantalla de la pagina de Tesla" title="Pagina web de tesla">
+
+        <section>
+            <article>
+                <header>
+                    <h4>Modulo FAQ | The Fives Beach Hotels & Residences</h4>
+                </header>
+                <p>
+                    Desarrollo de un modulo de FAQ para un sistema de gestión de ventas en interno
+                </p>
+                <footer><small>Tecnologías utilizadas: HTML, CSS, JavaScript, Django, Vue.js</small></footer>
+            </article>
+            <article>
+                <header>
+                    <h4>Sistema RH | Edumark</h4>
+                </header>
+                <p>
+                    Desarrollo, gestión y despliegue de un MVP de un sistema de recursos humanos
+                </p>
+                <footer><small>Tecnologías utilizadas: HTML, CSS, TypeScript, Angular, Ionic, NodeJS, Sequelize,
+                        PHPMyAdmin, Digital Ocean</small></footer>
+            </article>
+            <article>
+                <header>
+                    <h4>Modulo FAQ | The Fives Beach Hotels & Residences</h4>
+                </header>
+                <p>
+                    Desarrollo de un modulo de FAQ para un sistema de gestión de ventas en interno
+                </p>
+                <footer><small>Tecnologías utilizadas: HTML, CSS, JavaScript, Django, Vue.js</small></footer>
+            </article>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Información personal</legend>
+
+                    <label>Nombre:
+                        <input type="text" name="name" placeholder="Oliver Lucero" required>
+                    </label>
+
+                    <label>Email:
+                        <input type="email" name="email" placeholder="oliver@gmail.com" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Información adicional</legend>
+
+                    <label>Telefono:
+                        <input type="tel" name="tel" placeholder="+529841195080" required>
+                    </label>
+                </fieldset>
+                <button>Enviar contacto</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Copyright © 2023 - Portfolio Oliver Lucero
+    </footer>
+    <a href=" https://wa.me/+529843186500?text=Hola">Enviar</a>
+</body>
+
+</html>
